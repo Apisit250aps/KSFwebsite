@@ -1,5 +1,13 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+// import Flicking from "@egjs/vue3-flicking/dist/flicking.esm";
 
-createApp(App).use(router).mount('#app')
+
+import '@/assets/css/style.css'
+
+
+const app = createApp(App)
+app.use(router)
+// app.component("Flicking", Flicking);
+app.mount('#app')
