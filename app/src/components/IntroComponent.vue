@@ -96,21 +96,21 @@
             </div>
             <br>
             <div class="row row-cols-1 row-cols-lg-3 m-auto">
-                <div class="col-5">
+                <div class="col">
                     <img src="../assets/image/ksf_1/IMG_4917.jpg" alt="" srcset="" class="img-fluid rounded-4">
                     <div class="my-2">
                         <h5 class="h-ksf">ค่ายจิตอาสา</h5>
                         <p>ค่ายเล็ก - ค่ายใหญ่</p>
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col">
                     <img src="../assets/image/ksf_1/IMG_4572.jpg" alt="" srcset="" class="img-fluid rounded-4">
                     <div class="my-2">
                         <h5 class="h-ksf">ได้รับประสบการณ์ใหม่ ๆ</h5>
                         <!-- <p>ค่ายเล็ก - ค่ายใหญ่</p> -->
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col">
                     <img src="../assets/image/ksf_1/IMG_1776.jpg" alt="" srcset="" class="img-fluid rounded-4">
                     <div class="my-2">
                         <h5 class="h-ksf">ชั่วโมง กยศ.</h5>

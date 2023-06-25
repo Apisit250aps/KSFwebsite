@@ -1,7 +1,17 @@
 <template>
   <router-view/>
+  <ContactComponent />
 </template>
 
-<style>
+<script>
 
-</style>
+import ContactComponent from './components/ContactComponent.vue';
+
+export default {
+  name:"App",
+  components:{
+    ContactComponent
+  }
+}
+
+</script>
