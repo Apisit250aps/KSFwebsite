@@ -1,14 +1,10 @@
 <template type="text/html">
-  <div class="home">
+  <div class="home pb-5">
     <IntroComponent />
     <EventsComponent />
+    <toEventsComponent />
   </div>
 </template>
-
-
-
-
-
 
 
 
@@ -19,13 +15,14 @@ import { defineComponent } from 'vue'
 // import HelloWorld from '@/components/HelloWorld.vue'
 import IntroComponent from '@/components/IntroComponent.vue';
 import EventsComponent from '@/components/EventsComponent.vue';
-
+import toEventsComponent from '@/components/toEventsComponent.vue';
 
 export default defineComponent({
   name: 'HomeView',
   components: {
     IntroComponent,
     EventsComponent,
+    toEventsComponent,
   }
 });
 </script>
