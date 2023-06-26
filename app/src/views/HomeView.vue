@@ -2,7 +2,7 @@
   <div class="home pb-5">
     <IntroComponent />
     <EventsComponent />
-    <!-- <PalaceComponent /> -->
+    <PalaceComponent />
     <toEventsComponent />
   </div>
 </template>
@@ -17,7 +17,7 @@ import { defineComponent } from 'vue'
 import IntroComponent from '@/components/IntroComponent.vue';
 import EventsComponent from '@/components/EventsComponent.vue';
 import toEventsComponent from '@/components/toEventsComponent.vue';
-// import PalaceComponent from '@/components/PalaceComponent.vue';
+import PalaceComponent from '@/components/PalaceComponent.vue';
 
 export default defineComponent({
   name: 'HomeView',
@@ -25,6 +25,7 @@ export default defineComponent({
     IntroComponent,
     EventsComponent,
     toEventsComponent,
+    PalaceComponent
     
   }
 });

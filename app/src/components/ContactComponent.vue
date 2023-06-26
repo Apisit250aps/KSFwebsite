@@ -1,5 +1,5 @@
 <template>
-    <div class=" bg-dark" id="contact">
+    <div class="py-3 bg-dark " id="contact">
         <div class="container py-3">
             <div class="row row-cols-1 m-auto">
                 <div class="col my-3">
